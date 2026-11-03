@@ -1,0 +1,154 @@
+/* تنسيق الصفحة بالكامل */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #fff5f7;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* تنسيق العناوين */
+h1 {
+    color: #ad5273;
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    color: #bd6685;
+    margin-bottom: 15px;
+}
+
+/* تنسيق الرأس */
+header {
+    background-color: #f3c6d5;
+    text-align: center;
+    padding: 25px;
+}
+
+/* تنسيق روابط الصفحات */
+nav {
+    background-color: #ad5273;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe1eb;
+}
+
+/* تنسيق المحتوى */
+main {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+/* تنسيق النماذج */
+form {
+    margin: 20px auto;
+}
+
+/* تنسيق أسماء الحقول */
+label {
+    font-weight: bold;
+    color: #8e405e;
+}
+
+/* تنسيق مربعات الإدخال */
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #d9a4b7;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* تنسيق الأزرار */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #ad5273;
+    color: white;
+    width: auto;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* عند المرور على الزر */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #873b59;
+}
+
+/* تنسيق جدول المواعيد */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #d9a4b7;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f3c6d5;
+    color: #77334e;
+}
+
+/* تنسيق الروابط */
+a {
+    color: #ad5273;
+}
+
+/* تنسيق أسفل الصفحة */
+footer {
+    background-color: #ad5273;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* تنسيق الخط الفاصل */
+hr {
+    border: 1px solid #f0c5d4;
+}
+
+/* مناسب لشاشات الموبايل */
+@media screen and (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    input, textarea {
+        width: 90%;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
